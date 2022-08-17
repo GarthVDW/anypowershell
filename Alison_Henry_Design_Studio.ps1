@@ -1,1 +1,2 @@
-Add-VpnConnection -Name “Alison Henry Design Studio” -ServerAddress "henry-gerald-road-wired-rdtmtcnbct.dynamic-m.com" -TunnelType "L2tp" -EncryptionLevel "Required" -AuthenticationMethod Pap, MSCHAPv2 -AllUserConnection -L2tpPsk "pleaseletmein" -Force -RememberCredential -WarningAction silentlyContinue
+#VPN to Alison Henry Studio
+Add-VpnConnection -Name Alison Henry Design Studio� -ServerAddress "henry-gerald-road-wired-rdtmtcnbct.dynamic-m.com" -TunnelType "L2tp" -EncryptionLevel "Required" -AuthenticationMethod Pap, MSCHAPv2 -AllUserConnection -L2tpPsk "pleaseletmein" -Force -RememberCredential -WarningAction silentlyContinue
